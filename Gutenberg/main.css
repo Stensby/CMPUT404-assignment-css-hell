@@ -1,0 +1,45 @@
+body {
+  background-color: #F8ECC2;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.FirstP:first-letter {
+    font-size: 400%;
+    font-style: oblique;
+}
+
+p {
+  font-style: italic;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: darkgrey;
+}
+
+pre {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 75%;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
