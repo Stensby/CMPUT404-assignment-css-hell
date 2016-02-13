@@ -1,0 +1,79 @@
+/*
+	This code is licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+
+	Michael Stensby, 2016
+*/
+
+/* Animation code from http://www.w3schools.com/css/css3_animations.asp */
+@keyframes background {
+  0%   {background-color: blue;}
+  50%  {background-color: red;}
+  100% {background-color: blue;}
+}
+@keyframes text {
+  50% { opacity: 0.5; }
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bolder;
+}
+h2 {
+font-size: 175%;
+}
+
+h3{
+font-size: 150%;
+}
+
+body{
+  background-color: white ;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+/* Image from https://commons.wikimedia.org/wiki/File:Drunk_man.jpg */
+.profile {
+  height: 10.5cm;
+  width: 16cm;
+  float: left;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Drunk_man.jpg");
+  background-size: 16cm, 10.5cm;
+  margin-right: 2%;
+}
+.header {
+  color: white;
+  background-color: blue;
+  animation-name: background;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  text-align: center;
+  padding: 1%;
+  border: 3px solid red;
+}
+
+.sidebar {
+  height: 100%;
+  width: 12%;
+  float: right;
+  background-color: #FFE761;
+  margin-top: 0.5%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 5%;
+  font-size: 1.1em;
+  border: 3px solid red;
+  text-align: left;
+  animation: text 0.5s linear infinite;
+}
+
+.main {
+  background-color: #F433FF;
+  margin-right: 18.75%;
+  margin-top: 0.5%;
+  text-align: left;
+  padding: 1%;
+  opacity: 1;
+  height: 100%;
+  border: 3px solid red;
+  font-size: 125%;
+}

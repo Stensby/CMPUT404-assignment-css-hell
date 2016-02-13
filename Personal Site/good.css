@@ -1,9 +1,64 @@
-header {
+/*
+	This code is licensed under Creative Commons Attribution-ShareAlike 4.0 International License
 
+	Michael Stensby, 2016
+*/
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+h2 {
+font-size: 175%;
+}
+
+h3{
+font-size: 150%;
+}
+
+body{
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile {
+  height: 8cm;
+  width: 8cm;
+  float: left;
+  background-image: url("profile.jpg");
+  background-size: 8cm, 8cm;
+  margin-right: 2%;
+}
+.header {
+  color: white;
+  background-color: #597081;
+  text-align: center;
+  padding: 1%;
+  border: 2px solid black
 }
 
 .sidebar {
-  float:right;
-  width: 200px;
-  border: 3px solid #73AD21;
+  height: 100%;
+  width: 12%;
+  float: right;
+  background-color: #eee;
+  margin-top: 0.5%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 5%;
+  font-size: 1.1em;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-align: left;
+}
+
+.main {
+  background-color: #eee;
+  margin-right: 18.75%;
+  margin-top: 0.5%;
+  text-align: left;
+  padding: 1%;
+  opacity: 1;
+  height: 100%;
+  border: 2px solid black;
+  font-size: 150%;
 }
